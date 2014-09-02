@@ -58,12 +58,12 @@ var app = {
 
         scanner.scan( function (result) { 
 
-            setTimeout(function() {
-                alert("We got a barcode\n" + 
-                "Result: " + result.text + "\n" + 
-                "Format: " + result.format + "\n" + 
-                "Cancelled: " + result.cancelled);  
-            }, 0);
+            // setTimeout(function() {
+            //     alert("We got a barcode\n" + 
+            //     "Result: " + result.text + "\n" + 
+            //     "Format: " + result.format + "\n" + 
+            //     "Cancelled: " + result.cancelled);  
+            // }, 0);
 
            console.log("Scanner result: \n" +
                 "text: " + result.text + "\n" +
